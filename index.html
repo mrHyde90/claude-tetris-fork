@@ -5,8 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Tetris</title>
   <link rel="stylesheet" href="style.css" />
+  <script>
+    // Aplica el tema guardado antes del primer render (oscuro por defecto)
+    if (localStorage.getItem('theme') === 'light') document.documentElement.dataset.theme = 'light';
+  </script>
 </head>
 <body>
+  <button id="theme-toggle" class="theme-toggle" type="button">Modo claro</button>
   <div class="wrapper">
     <h1 class="title">TETRIS</h1>
 
