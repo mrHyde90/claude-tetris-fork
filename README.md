@@ -7,7 +7,7 @@ Implementación del clásico **Tetris** en JavaScript vanilla, usando HTML5 Canv
 ![Tech](https://img.shields.io/badge/JavaScript-Vanilla-yellow)
 
 ---
-
+CLAUDE_CODE_OAUTH_TOKEN
 ## Tabla de contenidos
 
 - [Tetris](#tetris)
