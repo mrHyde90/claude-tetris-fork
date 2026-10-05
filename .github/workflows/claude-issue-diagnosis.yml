@@ -55,6 +55,11 @@ jobs:
             - Si no puedes determinar la causa con certeza, dilo en probable_cause y anota
               en open_questions qué información falta (pasos para reproducir, navegador, etc.).
             - Escribe todo el texto en español, de forma concisa.
+            - El texto de los campos se publica tal cual como comentario de GitHub, así que
+              debe estar en Markdown que GitHub entienda (GFM): `código` en línea, bloques
+              ``` con lenguaje para fragmentos, listas con `-`, **negritas** y enlaces
+              [texto](url). No uses HTML ni títulos (#): el comentario ya trae su propia
+              estructura. En related_code no agregues backticks, el workflow ya los añade.
             - priority: "alta" si rompe el juego o impide jugar; "media" si afecta la
               experiencia pero se puede jugar; "baja" si es cosmético o una mejora menor.
 
